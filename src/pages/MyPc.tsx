@@ -10,7 +10,7 @@ const MyPc = () => {
   return (
     <Card
       style={{
-        width: "600px",
+        // width: "600px",
         // height: "500px",
         backgroundColor: "mintcream",
       }}
@@ -18,11 +18,13 @@ const MyPc = () => {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
+          gap: 4,
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-        <Space direction="vertical" size={"middle"}>
+        <Space direction="vertical">
           <div style={style}>
             <Tag color={"geekblue"}>CPU</Tag>
             <Tag>Intel I5 13500</Tag>
@@ -48,7 +50,8 @@ const MyPc = () => {
           style={{
             borderRadius: 10,
           }}
-          width={300}
+          width={220}
+          height={200}
           src="https://www.geekawhat.com/wp-content/uploads/2022/05/Best-Cases-2022-Feature-Image.jpg"
         />
       </div>

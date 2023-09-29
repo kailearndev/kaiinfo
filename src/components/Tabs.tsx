@@ -23,7 +23,7 @@ const items: TabsProps["items"] = [
 const TabComponent: React.FC = () => (
   <Tabs
     style={{
-      width: 600,
+      maxWidth: 320,
     }}
     defaultActiveKey="1"
     items={items}

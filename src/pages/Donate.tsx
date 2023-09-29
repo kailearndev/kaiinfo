@@ -15,7 +15,9 @@ const Donate = () => {
         justifyContent: "center",
       }}
     >
-      <Title code>DONATE QUA CÁC HÌNH THỨC</Title>
+      <Title level={4} code>
+        DONATE QUA CÁC HÌNH THỨC
+      </Title>
       <ModalDonate />
       <Divider dashed />
       <div
